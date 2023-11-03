@@ -45,7 +45,7 @@ This command will start a local PHP server on `http://localhost:1000` by default
 Send a `GET` request to `/facts`:
 
 ```bash
-curl -X GET http://localhost:1000/facts
+curl -X GET http://localhost:1000/facts/random
 ```
 
 ### Retrieving a specific cat fact
